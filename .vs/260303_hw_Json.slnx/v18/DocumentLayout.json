@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\jsonconverter.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\jsonconverter.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_json\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
@@ -18,11 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Site.Master",
               "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\Site.Master",
               "RelativeDocumentMoniker": "260303_hw_Json\\Site.Master",
@@ -32,19 +28,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-03-03T05:53:54.358Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JsonConverter.aspx",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\JsonConverter.aspx",
-              "RelativeDocumentMoniker": "260303_hw_Json\\JsonConverter.aspx",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\JsonConverter.aspx",
-              "RelativeToolTip": "260303_hw_Json\\JsonConverter.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-03-03T07:12:31.856Z",
               "EditorCaption": ""
             },
             {
