@@ -50,6 +50,7 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">About</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/JsonConverter">Json Converter</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/KhLrt">高雄輕軌月均運量</a></li>
                     </ul>
                 </div>
             </div>
