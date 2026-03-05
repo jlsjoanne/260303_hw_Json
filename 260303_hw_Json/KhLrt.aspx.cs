@@ -18,7 +18,7 @@ namespace _260303_hw_Json
             KhLRTData[] lrtData = root.Data;
             
 
-            Literal1.Text += "<table style=\"width:100%\" border= 1px solid black border-collapse: collapse>" + 
+            Literal1.Text += "<table style=\"width:100%\" border-collapse: collapse>" + 
                 "<tr>" +
                 "<th>年</th>" +
                 "<th>月</th>" +
