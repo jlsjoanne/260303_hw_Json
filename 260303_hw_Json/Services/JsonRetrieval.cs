@@ -14,8 +14,13 @@ namespace _260303_hw_Json
     public static class JsonRetrieval
     {
 
-        private static readonly HttpClientHandler handler = new HttpClientHandler { UseProxy = false };
-        private static HttpClient client = new HttpClient();
+        private static CookieContainer cookieContainer = new CookieContainer();
+        private static readonly HttpClientHandler handler = new HttpClientHandler 
+        { 
+            AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate,
+            CookieContainer = cookieContainer
+        };
+        private static HttpClient client = new HttpClient(handler);
       
         public static bool ValidateServerCertificate(Object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
         {
@@ -27,12 +32,13 @@ namespace _260303_hw_Json
             {
                 var targetUrl = url;
                 ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(ValidateServerCertificate);
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(targetUrl);
+                request.Headers.Clear();
                 request.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36";
                 request.Method = "GET";
                 request.ContentType = "application/json;charset=UTF-8";
                 request.CookieContainer = new CookieContainer();
-                request.Referer = "http://www.google.com";
                 
 
 
@@ -55,31 +61,57 @@ namespace _260303_hw_Json
 
         public static async Task<string> GetJsonContentAsync(string url)
         {
+            ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(ValidateServerCertificate);
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Ssl3;
             try
             {
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36");
-                client.DefaultRequestHeaders.Add("Referer", "http://www.google.com");
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+                client.DefaultRequestHeaders.ExpectContinue = false;
+                client.DefaultRequestHeaders.Add("Accept", "application/json, text/plain, */*");
+                client.DefaultRequestHeaders.Add("accept-language", "zh,zh-TW;q=0.9,en-US;q=0.8,en;q=0.7");
+                client.DefaultRequestHeaders.Add("accept-encoding", "gzip, deflate, br");               
+                client.DefaultRequestHeaders.Add("Connection", "keep-alive");
 
-                using (var response = await client.GetAsync(url))
+
+
+                var request = new HttpRequestMessage(HttpMethod.Get, url);
+                
+
+                request.Headers.ConnectionClose = false;
+
+                HttpResponseMessage response = await client.SendAsync(request);
+                response.EnsureSuccessStatusCode();
+                using(var stream = await response.Content.ReadAsStreamAsync())
                 {
-                    response.EnsureSuccessStatusCode();
-                    using (var stream = await response.Content.ReadAsStreamAsync())
+                    using(var reader = new StreamReader(stream))
                     {
-                        using (var reader = new StreamReader(stream))
-                        {
-                            return await reader.ReadToEndAsync();
-                        }
+                        return await reader.ReadToEndAsync();
                     }
                 }
-
 
             }
             catch(HttpRequestException ex)
             {
                 return $"Request error: {ex.Message}";
+            }
+        }
+
+        //Gemini suggestion
+        public static string testJsonContent(string url)
+        {
+            using(WebClient wc = new WebClient())
+            {
+                wc.Encoding = System.Text.Encoding.UTF8;
+                wc.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)");
+                try
+                {
+                    return wc.DownloadString(url);
+                }
+                catch(WebException ex)
+                {
+                    return $"Request error: {ex.Message}";
+                }
             }
         }
     }

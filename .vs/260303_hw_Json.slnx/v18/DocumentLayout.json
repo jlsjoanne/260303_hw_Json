@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\services\\jsonretrieval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\services\\jsonretrieval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\gymdata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\gymdata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\gymdata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_json\\gymdata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\gymdata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\khlrt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\khlrt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_json\\gymdata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\gymdata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\services\\jsonretrieval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\services\\jsonretrieval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,31 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\Site.Master",
-              "RelativeDocumentMoniker": "260303_hw_Json\\Site.Master",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\Site.Master",
-              "RelativeToolTip": "260303_hw_Json\\Site.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-03-03T05:53:54.358Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "JsonRetrieval.cs",
               "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\Services\\JsonRetrieval.cs",
               "RelativeDocumentMoniker": "260303_hw_Json\\Services\\JsonRetrieval.cs",
               "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\Services\\JsonRetrieval.cs",
               "RelativeToolTip": "260303_hw_Json\\Services\\JsonRetrieval.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T06:39:27.493Z",
               "EditorCaption": ""
@@ -67,14 +49,14 @@
               "RelativeDocumentMoniker": "260303_hw_Json\\GymData.aspx.cs",
               "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\GymData.aspx.cs",
               "RelativeToolTip": "260303_hw_Json\\GymData.aspx.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAACTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T01:59:21.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GymData.aspx",
               "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\GymData.aspx",
               "RelativeDocumentMoniker": "260303_hw_Json\\GymData.aspx",
@@ -84,23 +66,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-03-05T01:50:47.68Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "KhLrt.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\KhLrt.aspx.cs",
-              "RelativeDocumentMoniker": "260303_hw_Json\\KhLrt.aspx.cs",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\KhLrt.aspx.cs",
-              "RelativeToolTip": "260303_hw_Json\\KhLrt.aspx.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T01:16:14.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
