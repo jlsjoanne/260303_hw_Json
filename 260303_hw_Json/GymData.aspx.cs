@@ -10,13 +10,13 @@ namespace _260303_hw_Json
 {
     public partial class GymData : System.Web.UI.Page
     {
-        protected async void Page_Load(object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
 
             if (!IsPostBack)
             {
-                string url = "https://iplay.sports.gov.tw/api/GymSearchAllList?$format=application/json;odata.metadata=none&Keyword=棒球場 國小&City=高雄市";
-                string content = await JsonRetrieval.GetJsonContentAsync(url);
+                string url = "https://iplay.sports.gov.tw/api/GymSearchAllList?$format=application/json&City=高雄市";
+                string content = JsonRetrieval.GetWebContent(url);
                 Literal1.Text += $"{url}<br />" + content;
                 //GymRootobject root = JsonSerializer.Deserialize<GymRootobject>(content);
                 //List<Gym> gymData = root.gymData.ToList();
@@ -28,6 +28,6 @@ namespace _260303_hw_Json
 
         }
 
-        
+
     }
 }

@@ -68,10 +68,11 @@ namespace _260303_hw_Json
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36");
                 client.DefaultRequestHeaders.ExpectContinue = false;
-                client.DefaultRequestHeaders.Add("Accept", "application/json, text/plain, */*");
-                client.DefaultRequestHeaders.Add("accept-language", "zh,zh-TW;q=0.9,en-US;q=0.8,en;q=0.7");
+                client.DefaultRequestHeaders.Add("Accept", "*/*");
+                //client.DefaultRequestHeaders.Add("accept-language", "zh,zh-TW;q=0.9,en-US;q=0.8,en;q=0.7");
                 client.DefaultRequestHeaders.Add("accept-encoding", "gzip, deflate, br");               
                 client.DefaultRequestHeaders.Add("Connection", "keep-alive");
+                
 
 
 
@@ -79,6 +80,8 @@ namespace _260303_hw_Json
                 
 
                 request.Headers.ConnectionClose = false;
+                request.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36");
+                
 
                 HttpResponseMessage response = await client.SendAsync(request);
                 response.EnsureSuccessStatusCode();
@@ -97,23 +100,61 @@ namespace _260303_hw_Json
             }
         }
 
-        //Gemini suggestion
-        public static string testJsonContent(string url)
+        public static string GetWebContent(string Url)
         {
-            using(WebClient wc = new WebClient())
-            {
-                wc.Encoding = System.Text.Encoding.UTF8;
-                wc.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)");
-                try
-                {
-                    return wc.DownloadString(url);
-                }
-                catch(WebException ex)
-                {
-                    return $"Request error: {ex.Message}";
-                }
-            }
+            var uri = new Uri(Url);
+            var request = WebRequest.Create(Url) as HttpWebRequest;
+            WebClient wc = new WebClient();
+            //REF: https://stackoverflow.com/a/39534068/288936
+            ServicePointManager.SecurityProtocol =
+                SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls |
+                SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+            string res = wc.DownloadString(Url);
+            // If required by the server, set the credentials.
+            request.UserAgent = "PostmanRuntime/7.26.5";
+            request.Accept = "/";
+            request.Credentials = CredentialCache.DefaultCredentials;
+            ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(CheckValidationResult);
+            // 重點是修改這行
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls |
+                                                   SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+            // Get the response.
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+            // Get the stream containing content returned by the server.
+            Stream dataStream = response.GetResponseStream();
+            // Open the stream using a StreamReader for easy access.
+            StreamReader reader = new StreamReader(dataStream);
+            // Read the content.
+            string responseFromServer = reader.ReadToEnd();
+            // Display the content.
+            // Cleanup the streams and the response.
+            reader.Close();
+            dataStream.Close();
+            response.Close();
+            return responseFromServer;
         }
+        private static bool CheckValidationResult(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors errors)
+        {
+            return true;
+        }
+
+        ////Gemini suggestion
+        //public static string testJsonContent(string url)
+        //{
+        //    using(WebClient wc = new WebClient())
+        //    {
+        //        wc.Encoding = System.Text.Encoding.UTF8;
+        //        wc.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)");
+        //        try
+        //        {
+        //            return wc.DownloadString(url);
+        //        }
+        //        catch(WebException ex)
+        //        {
+        //            return $"Request error: {ex.Message}";
+        //        }
+        //    }
+        //}
     }
         
 }

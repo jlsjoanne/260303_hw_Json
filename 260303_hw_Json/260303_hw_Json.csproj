@@ -245,6 +245,8 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="TWShow.aspx" />
+    <Content Include="TWShowDetails.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -305,6 +307,7 @@
     <Compile Include="KhLrt.aspx.designer.cs">
       <DependentUpon>KhLrt.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Show.cs" />
     <Compile Include="Models\Gym.cs" />
     <Compile Include="Models\Infant.cs" />
     <Compile Include="Models\KhLRT.cs" />
@@ -324,6 +327,20 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TWShow.aspx.cs">
+      <DependentUpon>TWShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TWShow.aspx.designer.cs">
+      <DependentUpon>TWShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TWShowDetails.aspx.cs">
+      <DependentUpon>TWShowDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TWShowDetails.aspx.designer.cs">
+      <DependentUpon>TWShowDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
