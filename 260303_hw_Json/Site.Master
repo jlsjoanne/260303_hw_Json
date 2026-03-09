@@ -50,7 +50,8 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/JsonConverter">Json Converter</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/KhLrt">高雄輕軌月均運量</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/InfantStat">作業1: 嬰兒出生數</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/TWShow">作業2: 戲劇表演資訊</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/MedicalOrg">作業2: 醫療器材商資料</a></li>
+                        
                         
                     </ul>
                 </div>

@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\twshow.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\twshow.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_json\\twshow.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\twshow.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\twshowdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\twshowdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_json\\models\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\models\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\twshowdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\twshowdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_json\\infantstat.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\infantstat.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_json\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\medicalorg.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\medicalorg.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\medicalorg.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\medicalorg.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\webform\\260303_hw_json\\260303_hw_json\\models\\medical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B022B929-4903-429A-B4FB-49843538FC09}|260303_hw_Json\\260303_hw_Json.csproj|solutionrelative:260303_hw_json\\models\\medical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Site.Master",
               "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\Site.Master",
               "RelativeDocumentMoniker": "260303_hw_Json\\Site.Master",
@@ -56,85 +44,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TWShow.aspx",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\TWShow.aspx",
-              "RelativeDocumentMoniker": "260303_hw_Json\\TWShow.aspx",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\TWShow.aspx",
-              "RelativeToolTip": "260303_hw_Json\\TWShow.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-03-09T07:19:20.533Z",
+              "DocumentIndex": 1,
+              "Title": "MedicalOrg.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\MedicalOrg.aspx.cs",
+              "RelativeDocumentMoniker": "260303_hw_Json\\MedicalOrg.aspx.cs",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\MedicalOrg.aspx.cs",
+              "RelativeToolTip": "260303_hw_Json\\MedicalOrg.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:16:24.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TWShowDetails.aspx",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\TWShowDetails.aspx",
-              "RelativeDocumentMoniker": "260303_hw_Json\\TWShowDetails.aspx",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\TWShowDetails.aspx",
-              "RelativeToolTip": "260303_hw_Json\\TWShowDetails.aspx",
+              "Title": "MedicalOrg.aspx",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\MedicalOrg.aspx",
+              "RelativeDocumentMoniker": "260303_hw_Json\\MedicalOrg.aspx",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\MedicalOrg.aspx",
+              "RelativeToolTip": "260303_hw_Json\\MedicalOrg.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-03-09T09:07:15.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TWShow.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\TWShow.aspx.cs",
-              "RelativeDocumentMoniker": "260303_hw_Json\\TWShow.aspx.cs",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\TWShow.aspx.cs",
-              "RelativeToolTip": "260303_hw_Json\\TWShow.aspx.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T07:26:15.847Z",
+              "WhenOpened": "2026-03-09T15:15:00.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Show.cs",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\Models\\Show.cs",
-              "RelativeDocumentMoniker": "260303_hw_Json\\Models\\Show.cs",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\Models\\Show.cs",
-              "RelativeToolTip": "260303_hw_Json\\Models\\Show.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAswCgAAAAiAAAAAAAAAA==",
+              "Title": "Medical.cs",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\Models\\Medical.cs",
+              "RelativeDocumentMoniker": "260303_hw_Json\\Models\\Medical.cs",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\Models\\Medical.cs",
+              "RelativeToolTip": "260303_hw_Json\\Models\\Medical.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T07:09:54.848Z",
+              "WhenOpened": "2026-03-09T15:13:38.804Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TWShowDetails.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\TWShowDetails.aspx.cs",
-              "RelativeDocumentMoniker": "260303_hw_Json\\TWShowDetails.aspx.cs",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\TWShowDetails.aspx.cs",
-              "RelativeToolTip": "260303_hw_Json\\TWShowDetails.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T09:33:26.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InfantStat.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\InfantStat.aspx.cs",
-              "RelativeDocumentMoniker": "260303_hw_Json\\InfantStat.aspx.cs",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\Webform\\260303_hw_Json\\260303_hw_Json\\InfantStat.aspx.cs",
-              "RelativeToolTip": "260303_hw_Json\\InfantStat.aspx.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T07:26:32.712Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
