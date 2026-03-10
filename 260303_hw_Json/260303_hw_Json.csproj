@@ -190,6 +190,7 @@
     <Content Include="JsonConverter.aspx" />
     <Content Include="KhLrt.aspx" />
     <Content Include="MedicalOrg.aspx" />
+    <Content Include="MedicalOrgDetails.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -312,6 +313,13 @@
     </Compile>
     <Compile Include="MedicalOrg.aspx.designer.cs">
       <DependentUpon>MedicalOrg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalOrgDetails.aspx.cs">
+      <DependentUpon>MedicalOrgDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MedicalOrgDetails.aspx.designer.cs">
+      <DependentUpon>MedicalOrgDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Gym.cs" />
     <Compile Include="Models\Infant.cs" />
